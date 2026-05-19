@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.lettsn'
+version = '0.1.0'
+
+repositories {
+    maven{ url "https://raw.githubusercontent.com/Zelaux/MindustryRepo/master/repository" }
+    maven{ url 'https://www.jitpack.io' }
+    mavenCentral()
+}
+
+ext {
+    mindustryVersion = 'v157.4'
+    jabelVersion = "93fde537c7"
+}
+
+dependencies {
+    compileOnly "com.github.Anuken.Arc:arc-core:$mindustryVersion"
+    compileOnly "com.github.Anuken.Mindustry:core:$mindustryVersion"
+    annotationProcessor "com.github.Anuken:jabel:$jabelVersion"
+}
+
+test {
+    useJUnitPlatform()
+}

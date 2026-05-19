@@ -1,0 +1,10 @@
+{
+  "name": "faster-processors",
+  "displayName": "Faster Processors",
+  "author": "LSN",
+  "main": "org.lettsn.fasterProcessors.Main",
+  "description": "A mod to make all processors faster.",
+  "version": "0.1.0",
+  "hidden": true,
+  "minGameVersion": 154
+}
