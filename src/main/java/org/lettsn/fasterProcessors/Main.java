@@ -8,9 +8,4 @@ public class Main extends Mod {
     public void init() {
         EventHooks.load();
     }
-
-    @Override
-    public void registerClientCommands(CommandHandler handler) {
-        Commands.load(handler);
-    }
 }
