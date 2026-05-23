@@ -3,7 +3,7 @@
   "displayName": "Faster Processors",
   "author": "LSN",
   "main": "org.lettsn.fasterProcessors.Main",
-  "description": "A mod to make all processors faster.",
+  "description": "A mod to make all processors speeds adjustable.",
   "version": "0.2.0",
   "hidden": true,
   "minGameVersion": 154

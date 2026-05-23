@@ -1,6 +1,5 @@
 # Faster Processors
-Increase the speed of all* processor types to be equal to that of hyper-processors. This mod is geared towards moderators
-who want to be able to view the contents of a pictologic (or similar) schematic quickly. 
+A Mindustry mod that allows the speed of processors to be adjustable via a slider. 
 
 \*This mod doesn't affect World Processors by design.
 
